@@ -7,7 +7,7 @@
 
 . $HOME/lodstats-env/bin/activate
 
-data="/data/bfs-linked-data/data/";
+. ./bfs.config.sh
 cd "$data"import
 rm *stats*
 

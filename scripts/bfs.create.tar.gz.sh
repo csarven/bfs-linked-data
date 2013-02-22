@@ -1,6 +1,6 @@
 #!/bin/bash
 
-data="/data/bfs-linked-data/data/"
+. ./bfs.config.sh
 
 cd "$data"
 tar -cvzf meta.tar.gz bfs*.nt *.rdf

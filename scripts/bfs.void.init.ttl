@@ -31,15 +31,15 @@ CONSTRUCT {
     foaf:primaryTopic :bfs .
 
 
-:bfs
+bfs-dataset:bfs
     a void:Dataset ;
     foaf:homepage <http://bfs.270a.info/> ;
-    dcterms:source <http://bfs.org/> ;
+    dcterms:source <http://www.bfs.admin.ch/> ;
     dcterms:publisher <http://csarven.ca/#i> ;
     dcterms:modified "2013-02-10"^^xsd:date ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     void:subset
-        :VoID ,
+        bfs-dataset:void ,
         ?voidDataset ;
     void:triples 1050000 ;
     dcterms:subject
@@ -50,19 +50,18 @@ CONSTRUCT {
     void:sparqlEndpoint <http://bfs.270a.info/sparql> ;
     void:feature <http://www.w3.org/ns/formats/RDF_XML> ,
                  <http://www.w3.org/ns/formats/Turtle> ;
-    void:dataDump <http://bfs.270a.info/data/data.tar.gz> ;
-    void:dataDump <http://bfs.270a.info/data/meta.tar.gz> ;
+    void:dataDump <http://bfs.270a.info/data/meta.tar.gz> 
     .
 
 
-:VoID
+bfs-dataset:void
     a sd:Graph, void:Dataset ;
     dcterms:title "SD+VoID triples"@en ;
     void:triples 879 ;
     void:dataDump <http://bfs.270a.info/void.ttl> ;
     .
 
-:meta
+bfs-dataset:meta
     void:dataDump <http://bfs.270a.info/data/meta.tar.gz> ;
     .
 
@@ -87,7 +86,7 @@ CONSTRUCT {
 :defaultDatasetDescription
     a sd:Dataset ;
     dcterms:title "BFS Linked Data"@en ;
-    dcterms:description "bfs Linked Data"@en ;
+    dcterms:description "BFS Linked Data"@en ;
     void:triples 1049548 ;
 
     sd:defaultGraph :defaultGraph ;
@@ -105,7 +104,7 @@ CONSTRUCT {
     .
 :namedGraphVoID
     sd:name bfs-graph:void ;
-    sd:graph :VoID ;
+    sd:graph bfs-dataset:void ;
     .
 
 

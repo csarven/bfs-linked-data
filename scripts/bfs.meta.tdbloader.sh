@@ -5,11 +5,7 @@
 #    Author URI: http://csarven.ca/#i
 #
 
-data="/data/oecd-linked-data/data/";
-namespace="http://bfs.270a.info/";
-graphs="/home/sarcap/Graphs/";
-tdbAssembler="/usr/lib/fuseki/tdb.oecd.ttl";
-JVM_ARGS="-Xmx12000M";
+. ./bfs.config.sh
 
 #java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/void /var/www/oecd.270a.info/void.ttl;
 

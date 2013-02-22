@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:sdmx="http://purl.org/linked-data/sdmx#">
+
+    <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191220">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:20Z</prov:startedAtTime>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:21Z</prov:endedAtTime>
+        <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+        <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+        <prov:used>
+            <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/CH1_RN+HCL_HGDE_HIST+1.0.xml">
+                <dcterms:identifier>CH1_RN+HCL_HGDE_HIST+1.0</dcterms:identifier>
+            </rdf:Description>
+        </prov:used>
+        <prov:generated rdf:resource="http://bfs.270a.info/data/CH1_RN+HCL_HGDE_HIST+1.0.xml"/>
+        <rdfs:label xml:lang="en">Retrieved CH1_RN+HCL_HGDE_HIST+1.0</rdfs:label>
+        <rdfs:comment xml:lang="en">CH1_RN+HCL_HGDE_HIST+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+    </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191222">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:22Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:23Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BILD_P_GRP+HCL_SHIS+1.0.xml">
+                    <dcterms:identifier>OFS_BILD_P_GRP+HCL_SHIS+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BILD_P_GRP+HCL_SHIS+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BILD_P_GRP+HCL_SHIS+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BILD_P_GRP+HCL_SHIS+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191224">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:24Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:25Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BILD_P_GRP+HCL_SHIS+2.0.xml">
+                    <dcterms:identifier>OFS_BILD_P_GRP+HCL_SHIS+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BILD_P_GRP+HCL_SHIS+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BILD_P_GRP+HCL_SHIS+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BILD_P_GRP+HCL_SHIS+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191226">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:26Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:27Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BILD_P_GRP+HCL_SHIS+3.0.xml">
+                    <dcterms:identifier>OFS_BILD_P_GRP+HCL_SHIS+3.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BILD_P_GRP+HCL_SHIS+3.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BILD_P_GRP+HCL_SHIS+3.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BILD_P_GRP+HCL_SHIS+3.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191228">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:28Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:29Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BILD_P_GRP+HCL_SHIS+4.0.xml">
+                    <dcterms:identifier>OFS_BILD_P_GRP+HCL_SHIS+4.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BILD_P_GRP+HCL_SHIS+4.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BILD_P_GRP+HCL_SHIS+4.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BILD_P_GRP+HCL_SHIS+4.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191230">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:30Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:31Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BILD_P_GRP+HCL_SHIS+5.0.xml">
+                    <dcterms:identifier>OFS_BILD_P_GRP+HCL_SHIS+5.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BILD_P_GRP+HCL_SHIS+5.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BILD_P_GRP+HCL_SHIS+5.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BILD_P_GRP+HCL_SHIS+5.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191232">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:32Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:33Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_AES_SBN+HCL_CSP+1.0.xml">
+                    <dcterms:identifier>OFS_BS_AES_SBN+HCL_CSP+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_AES_SBN+HCL_CSP+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_AES_SBN+HCL_CSP+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_AES_SBN+HCL_CSP+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191234">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:34Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:35Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_AES_SBN+HCL_CSP+2.0.xml">
+                    <dcterms:identifier>OFS_BS_AES_SBN+HCL_CSP+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_AES_SBN+HCL_CSP+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_AES_SBN+HCL_CSP+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_AES_SBN+HCL_CSP+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191236">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:36Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:37Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_AES_SBN+HCL_ISCO+1.0.xml">
+                    <dcterms:identifier>OFS_BS_AES_SBN+HCL_ISCO+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_AES_SBN+HCL_ISCO+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_AES_SBN+HCL_ISCO+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_AES_SBN+HCL_ISCO+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191238">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:38Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:39Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_AES_SBN+HCL_ISCO+2.0.xml">
+                    <dcterms:identifier>OFS_BS_AES_SBN+HCL_ISCO+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_AES_SBN+HCL_ISCO+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_AES_SBN+HCL_ISCO+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_AES_SBN+HCL_ISCO+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191240">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:40Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:41Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_AES_SBN+HCL_SBN+1.0.xml">
+                    <dcterms:identifier>OFS_BS_AES_SBN+HCL_SBN+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_AES_SBN+HCL_SBN+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_AES_SBN+HCL_SBN+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_AES_SBN+HCL_SBN+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191242">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:42Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:43Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_AES_SBN+HCL_SBN+2.0.xml">
+                    <dcterms:identifier>OFS_BS_AES_SBN+HCL_SBN+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_AES_SBN+HCL_SBN+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_AES_SBN+HCL_SBN+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_AES_SBN+HCL_SBN+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191244">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:44Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:45Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_POP_GRP+CL_MARITALSTATUS+1.0.xml">
+                    <dcterms:identifier>OFS_BS_POP_GRP+CL_MARITALSTATUS+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_POP_GRP+CL_MARITALSTATUS+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_POP_GRP+CL_MARITALSTATUS+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_POP_GRP+CL_MARITALSTATUS+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191246">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:46Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:47Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_POP_GRP+CL_MARITALSTATUS+2.0.xml">
+                    <dcterms:identifier>OFS_BS_POP_GRP+CL_MARITALSTATUS+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_POP_GRP+CL_MARITALSTATUS+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_POP_GRP+CL_MARITALSTATUS+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_POP_GRP+CL_MARITALSTATUS+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191248">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:48Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:49Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+1.0.xml">
+                    <dcterms:identifier>OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191250">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:50Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:51Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+2.0.xml">
+                    <dcterms:identifier>OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_DEM_GRP+HCL_LANGUAGESPUB+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191252">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:52Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:53Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+1.0.xml">
+                    <dcterms:identifier>OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191254">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:54Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:55Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+2.0.xml">
+                    <dcterms:identifier>OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_DEM_GRP+HCL_LANGUAGESSYST+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191256">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:56Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:57Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+1.0.xml">
+                    <dcterms:identifier>OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191258">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:58Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:12:59Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+2.0.xml">
+                    <dcterms:identifier>OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_BS_DEM_GRP+HCL_RELIGIONSPUB+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191300">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:00Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:01Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_BUR_BUR+CL_LEGALFORMS+1.0.xml">
+                    <dcterms:identifier>OFS_SI_BUR_BUR+CL_LEGALFORMS+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_BUR_BUR+CL_LEGALFORMS+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_BUR_BUR+CL_LEGALFORMS+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_BUR_BUR+CL_LEGALFORMS+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191302">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:02Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:03Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_BUR_BUR+CL_LEGALFORMS+2.0.xml">
+                    <dcterms:identifier>OFS_SI_BUR_BUR+CL_LEGALFORMS+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_BUR_BUR+CL_LEGALFORMS+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_BUR_BUR+CL_LEGALFORMS+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_BUR_BUR+CL_LEGALFORMS+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191304">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:04Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:05Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_BUR_NOGA+HCL_NOGA+1.0.xml">
+                    <dcterms:identifier>OFS_SI_BUR_NOGA+HCL_NOGA+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_BUR_NOGA+HCL_NOGA+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_BUR_NOGA+HCL_NOGA+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_BUR_NOGA+HCL_NOGA+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191306">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:06Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:07Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_BUR_NOGA+HCL_NOGA+2.0.xml">
+                    <dcterms:identifier>OFS_SI_BUR_NOGA+HCL_NOGA+2.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_BUR_NOGA+HCL_NOGA+2.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_BUR_NOGA+HCL_NOGA+2.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_BUR_NOGA+HCL_NOGA+2.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191308">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:08Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:10Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_BUR_NOGA+HCL_NOGA+3.0.xml">
+                    <dcterms:identifier>OFS_SI_BUR_NOGA+HCL_NOGA+3.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_BUR_NOGA+HCL_NOGA+3.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_BUR_NOGA+HCL_NOGA+3.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_BUR_NOGA+HCL_NOGA+3.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191311">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:11Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:12Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+1.0.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191313">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:13Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:14Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2000.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2000.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2000.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2000.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2000.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191315">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:15Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:16Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2002.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2002.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2002.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2002.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2002.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191317">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:17Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:18Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2003.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2003.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2003.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2003.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2003.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191319">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:19Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:20Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2004.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2004.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2004.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2004.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2004.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191321">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:21Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:22Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2006.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2006.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2006.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2006.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2006.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191323">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:23Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:24Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2008.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2008.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2008.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2008.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2008.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191325">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:25Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:26Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2009.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2009.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2009.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2009.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2009.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191327">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:27Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:28Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2010.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2010.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2010.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2010.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESGEO+2010.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191329">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:29Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:30Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2000.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2000.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2000.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2000.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2000.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191331">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:31Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:32Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2002.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2002.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2002.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2002.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2002.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191333">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:33Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:34Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2003.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2003.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2003.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2003.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2003.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191335">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:35Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:36Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2004.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2004.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2004.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2004.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2004.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191337">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:37Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:38Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2006.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2006.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2006.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2006.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2006.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191339">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:39Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:40Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2008.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2008.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2008.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2008.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2008.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191341">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:41Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:42Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2009.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2009.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2009.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2009.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2009.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191343">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:43Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:44Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2010.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2010.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2010.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2010.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_COUNTRIESPOL+2010.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191345">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:45Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:46Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2000.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2000.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2000.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2000.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2000.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191347">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:47Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:48Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2000.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2000.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2000.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2000.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2000.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191349">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:49Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:50Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2001.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2001.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2001.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2001.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2001.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191351">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:51Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:52Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2001.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2001.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2001.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2001.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2001.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191353">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:53Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:54Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2001.3.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2001.3</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2001.3.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2001.3</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2001.3 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191355">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:55Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:56Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2002.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2002.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2002.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2002.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2002.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191357">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:57Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:58Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2003.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2003.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2003.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2003.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2003.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191359">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:13:59Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:00Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2003.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2003.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2003.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2003.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2003.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191401">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:01Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:02Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2004.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2004.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2004.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2004.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2004.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191403">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:03Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:04Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2004.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2004.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2004.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2004.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2004.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191405">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:05Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:06Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2004.3.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2004.3</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2004.3.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2004.3</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2004.3 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191407">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:07Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:08Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2004.4.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2004.4</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2004.4.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2004.4</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2004.4 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191409">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:09Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:10Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2005.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2005.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2005.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2005.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2005.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191411">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:11Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:12Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2005.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2005.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2005.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2005.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2005.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191413">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:13Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:14Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2006.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2006.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2006.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2006.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2006.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191415">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:15Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:16Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2006.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2006.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2006.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2006.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2006.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191417">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:17Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:18Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2006.3.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2006.3</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2006.3.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2006.3</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2006.3 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191419">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:19Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:20Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2006.4.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2006.4</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2006.4.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2006.4</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2006.4 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191421">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:21Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:22Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2006.5.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2006.5</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2006.5.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2006.5</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2006.5 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191423">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:23Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:24Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2006.6.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2006.6</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2006.6.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2006.6</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2006.6 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191425">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:25Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:26Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2007.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2007.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2007.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2007.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2007.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191427">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:27Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:28Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2008.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2008.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2008.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2008.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2008.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191429">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:29Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:30Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2008.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2008.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2008.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2008.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2008.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191431">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:31Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:32Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2009.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2009.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2009.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2009.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2009.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191433">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:33Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:34Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2009.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2009.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2009.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2009.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2009.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191435">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:35Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:36Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2009.3.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2009.3</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2009.3.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2009.3</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2009.3 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191437">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:37Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:38Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2010.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2010.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2010.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2010.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2010.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191439">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:39Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:40Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2010.2.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2010.2</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2010.2.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2010.2</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2010.2 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191441">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:41Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:42Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2010.3.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2010.3</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2010.3.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2010.3</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2010.3 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191443">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:43Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:44Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE+2011.1.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE+2011.1</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE+2011.1.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE+2011.1</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE+2011.1 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191445">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:45Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:46Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_GEWO_RN+HCL_HGDE_HIST+1.0.xml">
+                    <dcterms:identifier>OFS_SI_GEWO_RN+HCL_HGDE_HIST+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_GEWO_RN+HCL_HGDE_HIST+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_GEWO_RN+HCL_HGDE_HIST+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_GEWO_RN+HCL_HGDE_HIST+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191447">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:47Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:48Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_SI_UNS_UDEMO+CL_SEX_V01+1.0.xml">
+                    <dcterms:identifier>OFS_SI_UNS_UDEMO+CL_SEX_V01+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_SI_UNS_UDEMO+CL_SEX_V01+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_SI_UNS_UDEMO+CL_SEX_V01+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_SI_UNS_UDEMO+CL_SEX_V01+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191449">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:49Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:50Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_WISTA_SUKO_GRP+CL_NOGA_TIC+1.0.xml">
+                    <dcterms:identifier>OFS_WISTA_SUKO_GRP+CL_NOGA_TIC+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_WISTA_SUKO_GRP+CL_NOGA_TIC+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_WISTA_SUKO_GRP+CL_NOGA_TIC+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_WISTA_SUKO_GRP+CL_NOGA_TIC+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191451">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:51Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:52Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_WISTA_SUKO_GRP+HCL_HS_ICT_CH+1.0.xml">
+                    <dcterms:identifier>OFS_WISTA_SUKO_GRP+HCL_HS_ICT_CH+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_WISTA_SUKO_GRP+HCL_HS_ICT_CH+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_WISTA_SUKO_GRP+HCL_HS_ICT_CH+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_WISTA_SUKO_GRP+HCL_HS_ICT_CH+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191453">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:53Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:54Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_WISTA_VGR_GRP+HCL_ASSETS+1.0.xml">
+                    <dcterms:identifier>OFS_WISTA_VGR_GRP+HCL_ASSETS+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_WISTA_VGR_GRP+HCL_ASSETS+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_WISTA_VGR_GRP+HCL_ASSETS+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_WISTA_VGR_GRP+HCL_ASSETS+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191455">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:55Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:56Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_WISTA_VGR_GRP+HCL_BALANCINGITEMS+1.0.xml">
+                    <dcterms:identifier>OFS_WISTA_VGR_GRP+HCL_BALANCINGITEMS+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_WISTA_VGR_GRP+HCL_BALANCINGITEMS+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_WISTA_VGR_GRP+HCL_BALANCINGITEMS+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_WISTA_VGR_GRP+HCL_BALANCINGITEMS+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191457">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:57Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:58Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_WISTA_VGR_GRP+HCL_COFOG+1.0.xml">
+                    <dcterms:identifier>OFS_WISTA_VGR_GRP+HCL_COFOG+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_WISTA_VGR_GRP+HCL_COFOG+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_WISTA_VGR_GRP+HCL_COFOG+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_WISTA_VGR_GRP+HCL_COFOG+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191459">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:14:59Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:15:00Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_WISTA_VGR_GRP+HCL_COICOP+1.0.xml">
+                    <dcterms:identifier>OFS_WISTA_VGR_GRP+HCL_COICOP+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_WISTA_VGR_GRP+HCL_COICOP+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_WISTA_VGR_GRP+HCL_COICOP+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_WISTA_VGR_GRP+HCL_COICOP+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191501">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:15:01Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:15:02Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_WISTA_VGR_GRP+HCL_INSTSECTORS+1.0.xml">
+                    <dcterms:identifier>OFS_WISTA_VGR_GRP+HCL_INSTSECTORS+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_WISTA_VGR_GRP+HCL_INSTSECTORS+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_WISTA_VGR_GRP+HCL_INSTSECTORS+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_WISTA_VGR_GRP+HCL_INSTSECTORS+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://bfs.270a.info/provenance/activity/20130214191503">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:15:03Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-14T19:15:04Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used>
+                <rdf:Description rdf:about="http://www.bfs.admin.ch/xmlns/sdmx/OFS_WISTA_VGR_GRP+HCL_TRANSACTIONS+1.0.xml">
+                    <dcterms:identifier>OFS_WISTA_VGR_GRP+HCL_TRANSACTIONS+1.0</dcterms:identifier>
+                </rdf:Description>
+            </prov:used>
+            <prov:generated rdf:resource="http://bfs.270a.info/data/OFS_WISTA_VGR_GRP+HCL_TRANSACTIONS+1.0.xml"/>
+            <rdfs:label xml:lang="en">Retrieved OFS_WISTA_VGR_GRP+HCL_TRANSACTIONS+1.0</rdfs:label>
+            <rdfs:comment xml:lang="en">OFS_WISTA_VGR_GRP+HCL_TRANSACTIONS+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+</rdf:RDF>

@@ -5,8 +5,7 @@
 #    Author URI: http://csarven.ca/#i
 #
 
-db="/SSD/data/tdb/db/bfs/" ;
-JVM_ARGS="-Xmx12000M" ;
+. ./bfs.config.sh
 
 java "$JVM_ARGS" tdb.tdbstats --loc="$db" --graph=urn:x-arq:UnionGraph > "$db"stats2.opt ;
 mv "$db"stats.opt "$db"stats.bak ;

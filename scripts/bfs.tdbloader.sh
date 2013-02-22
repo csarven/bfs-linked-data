@@ -5,11 +5,7 @@
 #    Author URI: http://csarven.ca/#i
 #
 
-data="/data/bfs-linked-data/data/";
-namespace="http://bfs.270a.info/";
-db="/SSD/data/tdb/db/bfs/" ;
-tdbAssembler="/usr/lib/fuseki/tdb.bfs.ttl";
-JVM_ARGS="-Xmx12000M"
+. ./bfs.config.sh
 
 echo "Removing $db";
 rm -rf "$db";
