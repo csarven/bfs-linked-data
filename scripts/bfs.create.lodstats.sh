@@ -8,8 +8,8 @@
 . $HOME/lodstats-env/bin/activate
 
 . ./bfs.config.sh
-cd "$data"import
-rm *stats*
+
+rm "$data"import/*stats*
 
 #lodstats -val "$data"import/graph.meta.nt > "$data"import/graph.meta.nt.stats.ttl
 #find "$data" -name "*[!Structure|prov].rdf" | while read i ; do file=$(basename "$i"); dataSetCode=${file%.*};
@@ -25,5 +25,5 @@ for i in "$data"import/*.nt ; do
 #sys     0m0.292s
 
 echo "Fixing URI for meta stats" ;
-find "$data"import/*stats.ttl -name "*[!Structure|prov]" | while read i ; do sed -ri 's/<file:\/\/\/data\/bfs-linked-data\/data\/import\/([^\.]*)\.nt/<http:\/\/bfs.270a.info\/dataset\/\1/g' "$i" ; done ;
+find "$data"import/*stats.ttl -name "*[!Structure|prov]" | while read i ; do sed -ri 's/<file:\/\/\/data\/'"$agency"'-linked-data\/data\/import\/([^\.]*)\.nt/<http:\/\/'"$agency"'.270a.info\/dataset\/\1/g' "$i" ; done ;
 

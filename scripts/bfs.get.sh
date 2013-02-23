@@ -7,7 +7,7 @@
 
 . ./bfs.config.sh
 
-rm "$data"prov.retrieval.rdf
+rm "$data""$agency".prov.retrieval.rdf
 
 echo '<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
@@ -16,7 +16,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:sdmx="http://purl.org/linked-data/sdmx#">' > "$data"prov.retrieval.rdf ;
+    xmlns:sdmx="http://purl.org/linked-data/sdmx#">' > "$data""$agency".prov.retrieval.rdf ;
 
 sleep 1
         dtstart=$(date +"%Y-%m-%dT%H:%M:%SZ") ;
@@ -41,7 +41,7 @@ sleep 1
         <prov:generated rdf:resource="http://bfs.270a.info/data/CH1_RN+HCL_HGDE_HIST+1.0.xml"/>
         <rdfs:label xml:lang="en">Retrieved CH1_RN+HCL_HGDE_HIST+1.0</rdfs:label>
         <rdfs:comment xml:lang="en">CH1_RN+HCL_HGDE_HIST+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
-    </rdf:Description>' >> "$data"prov.retrieval.rdf ;
+    </rdf:Description>' >> "$data""$agency".prov.retrieval.rdf ;
 
 counter=1;
 while read i ;
@@ -75,10 +75,10 @@ sleep 1
             <prov:generated rdf:resource="http://bfs.270a.info/data/'$DataSetCode'.xml"/>
             <rdfs:label xml:lang="en">Retrieved '$DataSetCode'</rdfs:label>
             <rdfs:comment xml:lang="en">'$DataSetCode' retrieved from source and saved to local filesystem.</rdfs:comment>
-        </rdf:Description>' >> "$data"prov.retrieval.rdf ;
+        </rdf:Description>' >> "$data""$agency".prov.retrieval.rdf ;
 
         (( counter++ ));
 
     done < data.txt
 
-echo -e "\n</rdf:RDF>" >> "$data"prov.retrieval.rdf ;
+echo -e "\n</rdf:RDF>" >> "$data""$agency".prov.retrieval.rdf ;
