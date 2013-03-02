@@ -57,7 +57,7 @@ bfs-dataset:bfs
 bfs-dataset:void
     a sd:Graph, void:Dataset ;
     dcterms:title "SD+VoID triples"@en ;
-    void:triples 879 ;
+    void:triples 868 ;
     void:dataDump <http://bfs.270a.info/void.ttl> ;
     .
 
@@ -87,7 +87,7 @@ bfs-dataset:meta
     a sd:Dataset ;
     dcterms:title "BFS Linked Data"@en ;
     dcterms:description "BFS Linked Data"@en ;
-    void:triples 1049548 ;
+    void:triples 1049466 ;
 
     sd:defaultGraph :defaultGraph ;
 
