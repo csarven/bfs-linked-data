@@ -11,9 +11,12 @@ prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#>
 prefix prov: <http://www.w3.org/ns/prov#>
 prefix sd: <http://www.w3.org/ns/sparql-service-description#>
 prefix : <http://bfs.270a.info/void.ttl#>
-prefix bfs-dataset: <http://bfs.270a.info/dataset/>
 prefix bfs-graph: <http://bfs.270a.info/graph/>
-
+prefix bfs-dataset: <http://bfs.270a.info/dataset/>
+prefix fao-dataset: <http://fao.270a.info/dataset/>
+prefix ecb-dataset: <http://ecb.270a.info/dataset/>
+prefix worldbank-dataset: <http://worldbank.270a.info/dataset/>
+prefix transparency-dataset: <http://transparency.270a.info/dataset/>
 
 CONSTRUCT {
 <http://csarven.ca/#i>
@@ -28,11 +31,12 @@ CONSTRUCT {
     a void:DatasetDescription ;
     dcterms:title "A VoiD Description of the bfs.270a.info Dataset"@en ;
     dcterms:creator <http://csarven.ca/#i> ;
-    foaf:primaryTopic :bfs .
+    foaf:primaryTopic bfs-dataset:bfs .
 
 
 bfs-dataset:bfs
     a void:Dataset ;
+    dcterms:title "Bundesamt für Statistik - Swiss Federal Statistics Office datasets"@en ;
     foaf:homepage <http://bfs.270a.info/> ;
     dcterms:source <http://www.bfs.admin.ch/> ;
     dcterms:publisher <http://csarven.ca/#i> ;
@@ -57,13 +61,10 @@ bfs-dataset:bfs
 bfs-dataset:void
     a sd:Graph, void:Dataset ;
     dcterms:title "SD+VoID triples"@en ;
-    void:triples 868 ;
+    void:triples 870 ;
     void:dataDump <http://bfs.270a.info/void.ttl> ;
     .
 
-bfs-dataset:meta
-    void:dataDump <http://bfs.270a.info/data/meta.tar.gz> ;
-    .
 
 ?voidDataset
     a sd:Graph ;
@@ -87,7 +88,7 @@ bfs-dataset:meta
     a sd:Dataset ;
     dcterms:title "BFS Linked Data"@en ;
     dcterms:description "BFS Linked Data"@en ;
-    void:triples 1049466 ;
+    void:triples 1049468 ;
 
     sd:defaultGraph :defaultGraph ;
 
@@ -108,26 +109,28 @@ bfs-dataset:meta
     .
 
 
-:meta_worldbank
+:linkset-bfs-worldbank
     a void:Linkset ;
     void:linkPredicate skos:exactMatch ;
-    void:subjectsTarget :meta ;
-    void:objectsTarget :worldbank ;
+    void:subjectsTarget bfs-dataset:bfs ;
+    void:objectsTarget worldbank-dataset:worldbank ;
     void:triples 185 ;
     .
-:worldbank
+worldbank-dataset:worldbank
     rdf:type void:Dataset ;
+    void:sparqlEndpoint <http://worldbank.270a.info/sparql> ;
     foaf:homepage <http://worldbank.270a.info/> ;
     .
-:meta_dbpedia
+:linkset-bfs-dbpedia
     a void:Linkset ;
     void:linkPredicate skos:exactMatch ;
-    void:subjectsTarget :meta ;
-    void:objectsTarget :dbpedia ;
+    void:subjectsTarget bfs-dataset:bfs ;
+    void:objectsTarget <http://dbpedia.org/void/Dataset> ;
     void:triples 261 ;
     .
-:dbpedia
+<http://dbpedia.org/void/Dataset>
     rdf:type void:Dataset ;
+    void:sparqlEndpoint <http://dbpedia.org/sparql> ;
     foaf:homepage <http://dbpedia.org/> ;
     .
 

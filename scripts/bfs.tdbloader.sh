@@ -13,9 +13,6 @@ rm -rf "$db";
 #java "$JVM_ARGS" tdb.tdbloader -v --desc="$tdbAssembler" --graph="$namespace"graph/data "$data"STATTAB-SDMX-01-2A01+2011.1.1+GENERIC.nt;
 #java "$JVM_ARGS" tdb.tdbloader -v --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"STATTAB-SDMX-01-2A01+2011.1.nt;
 
-rm "$data"import/meta.nt ;
-for i in "$data"*.rdf ; do rapper -g "$i" >> "$data"import/meta.nt ; done ;
-sort -u "$data"import/meta.nt > "$data"import/meta.sortu.nt ; mv "$data"import/meta.sortu.nt "$data"import/meta.nt
 java "$JVM_ARGS" tdb.tdbloader -v --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"import/meta.nt
 
 #rapper -g bfs-worldbank.country.trigrams.accept.nt > /data/bfs-linked-data/data/bfs.exactMatch.worldbank.nt
