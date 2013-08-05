@@ -38,7 +38,12 @@ sleep 1
                 <dcterms:identifier>CH1_RN+HCL_HGDE_HIST+1.0</dcterms:identifier>
             </rdf:Description>
         </prov:used>
-        <prov:generated rdf:resource="http://bfs.270a.info/data/CH1_RN+HCL_HGDE_HIST+1.0.xml"/>
+        <prov:generated>
+            <rdf:Description rdf:about="http://bfs.270a.info/data/CH1_RN+HCL_HGDE_HIST+1.0.xml">
+                <dcterms:identifier>CH1_RN+HCL_HGDE_HIST</dcterms:identifier>
+            </rdf:Description>
+        </prov:generated>
+
         <rdfs:label xml:lang="en">Retrieved CH1_RN+HCL_HGDE_HIST+1.0</rdfs:label>
         <rdfs:comment xml:lang="en">CH1_RN+HCL_HGDE_HIST+1.0 retrieved from source and saved to local filesystem.</rdfs:comment>
     </rdf:Description>' >> "$data""$agency".prov.retrieval.rdf ;
@@ -73,6 +78,12 @@ sleep 1
                 </rdf:Description>
             </prov:used>
             <prov:generated rdf:resource="http://bfs.270a.info/data/'$DataSetCode'.xml"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://bfs.270a.info/data/'$DataSetCode'.xml">
+                    <dcterms:identifier>'$DataSetCode'</dcterms:identifier>
+                </rdf:Description>
+            </prov:generated>
+
             <rdfs:label xml:lang="en">Retrieved '$DataSetCode'</rdfs:label>
             <rdfs:comment xml:lang="en">'$DataSetCode' retrieved from source and saved to local filesystem.</rdfs:comment>
         </rdf:Description>' >> "$data""$agency".prov.retrieval.rdf ;
