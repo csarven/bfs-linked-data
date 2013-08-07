@@ -15,6 +15,7 @@ prefix bfs-graph: <http://bfs.270a.info/graph/>
 prefix bfs-dataset: <http://bfs.270a.info/dataset/>
 prefix fao-dataset: <http://fao.270a.info/dataset/>
 prefix ecb-dataset: <http://ecb.270a.info/dataset/>
+prefix imf-dataset: <http://imf.270a.info/dataset/>
 prefix worldbank-dataset: <http://worldbank.270a.info/dataset/>
 prefix transparency-dataset: <http://transparency.270a.info/dataset/>
 
@@ -61,7 +62,7 @@ bfs-dataset:bfs
 bfs-dataset:void
     a sd:Graph, void:Dataset ;
     dcterms:title "SD+VoID triples"@en ;
-    void:triples 870 ;
+    void:triples 886 ;
     void:dataDump <http://bfs.270a.info/void.ttl> ;
     .
 
@@ -88,7 +89,7 @@ bfs-dataset:void
     a sd:Dataset ;
     dcterms:title "BFS Linked Data"@en ;
     dcterms:description "BFS Linked Data"@en ;
-    void:triples 1049468 ;
+    void:triples 1049486 ;
 
     sd:defaultGraph :defaultGraph ;
 
@@ -120,6 +121,30 @@ worldbank-dataset:worldbank
     rdf:type void:Dataset ;
     void:sparqlEndpoint <http://worldbank.270a.info/sparql> ;
     foaf:homepage <http://worldbank.270a.info/> ;
+    .
+:linkset-bfs-ecb
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget bfs-dataset:bfs ;
+    void:objectsTarget ecb-dataset:ecb ;
+    void:triples 221 ;
+    .
+ecb-dataset:ecb
+    rdf:type void:Dataset ;
+    void:sparqlEndpoint <http://ecb.270a.info/sparql> ;
+    foaf:homepage <http://ecb.270a.info/> ;
+    .
+:linkset-bfs-imf
+    a void:Linkset ;
+    void:linkPredicate skos:exactMatch ;
+    void:subjectsTarget bfs-dataset:bfs ;
+    void:objectsTarget imf-dataset:imf ;
+    void:triples 24 ;
+    .
+imf-dataset:imf
+    rdf:type void:Dataset ;
+    void:sparqlEndpoint <http://imf.270a.info/sparql> ;
+    foaf:homepage <http://imf.270a.info/> ;
     .
 :linkset-bfs-dbpedia
     a void:Linkset ;
