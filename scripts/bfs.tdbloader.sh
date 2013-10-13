@@ -26,7 +26,9 @@ java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/
 java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"bfs.exactMatch.dbpedia.nt
 java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"bfs.exactMatch.imf.nt
 java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"bfs.exactMatch.ecb.nt
-
+java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"bfs.exactMatch.eurostat.nt
+java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"bfs.exactMatch.geonames.nt
+java "$JVM_ARGS" tdb.tdbloader --desc="$tdbAssembler" --graph="$namespace"graph/meta "$data"bfs.exactMatch.hr.nt
 
 ./bfs.tdbstats.sh
 #INFO  ** Completed: 1,048,223 triples loaded in 31.03 seconds [Rate: 33,775.51 per second]
